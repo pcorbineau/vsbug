@@ -5,7 +5,7 @@ public:
   static Foo GetFoo(int index);
 
 private:
-  Foo();
+  Foo() = default;
 
   static Foo m_Foos[256];
 };

@@ -3,7 +3,3 @@
 Foo Foo::m_Foos[256] = {};
 
 Foo Foo::GetFoo(int index) { return m_Foos[index]; }
-
-Foo::Foo() {
-  // Do something
-}
